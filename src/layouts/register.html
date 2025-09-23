@@ -7,6 +7,70 @@
     <title>Register</title>
 </head>
 <body>
+    <div class="h-screen bg-cover bg-center flex items-center justify-center" style="background-image: url('../statics/register.jpg');">
+        <div class="bg-[#181A1C]/84 text-white rounded-2xl shadow-lg w-full max-w-sm p-8">
+            <!-- Logo -->
+            <div class="flex flex-col items-center mb-6">
+                <img src="../statics/logo.png">
+            </div>
 
+            <!-- Title -->
+            <h2 class="text-xl font-semibold text-center">Daftar</h2>
+            <p class="text-sm text-center mb-6">Selamat datang!</p>
+
+            <!-- Username -->
+            <label for="username" class="block text-sm font-semibold">Username</label>
+            <input type="text" id="username" placeholder="Masukkan username"
+                    class="mt-1 mb-4 w-full px-4 py-2 rounded-full border border-gray-600 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-400">
+
+            <!-- Password -->
+            <label for="password" class="block text-sm font-semibold">Kata Sandi</label>
+            <div class="relative mt-1 mb-2">
+                <input type="password" id="password" placeholder="Masukkan kata sandi"
+                    class="w-full px-4 py-2 rounded-full text-white border border-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-400">
+                <span class="absolute inset-y-0 right-3 flex items-center text-gray-400 cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.98 8.223A10.477 10.477 0 0 0 1.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.451 10.451 0 0 1 12 4.5c4.756 0 8.773 3.162 10.065 7.498a10.522 10.522 0 0 1-4.293 5.774M6.228 6.228 3 3m3.228 3.228 3.65 3.65m7.894 7.894L21 21m-3.228-3.228-3.65-3.65m0 0a3 3 0 1 0-4.243-4.243m4.242 4.242L9.88 9.88" />
+                    </svg>
+                </span>
+            </div>
+
+            <label for="password" class="block text-sm font-semibold">Konfirmasi Kata Sandi</label>
+            <div class="relative mt-1 mb-2">
+                <input type="password" id="password" placeholder="Masukkan kata sandi"
+                    class="w-full px-4 py-2 rounded-full text-white border border-gray-600 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-400">
+                <span class="absolute inset-y-0 right-3 flex items-center text-gray-400 cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.98 8.223A10.477 10.477 0 0 0 1.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.451 10.451 0 0 1 12 4.5c4.756 0 8.773 3.162 10.065 7.498a10.522 10.522 0 0 1-4.293 5.774M6.228 6.228 3 3m3.228 3.228 3.65 3.65m7.894 7.894L21 21m-3.228-3.228-3.65-3.65m0 0a3 3 0 1 0-4.243-4.243m4.242 4.242L9.88 9.88" />
+                    </svg>
+                </span>
+            </div>
+
+            <!-- Links under password -->
+            <div class="flex justify-between text-sm mb-6">
+                <span>Sudah punya akun? <a href="./login.html" class="text-white hover:underline font-semibold">Masuk</a></span>
+            </div>
+
+            <!-- Login button (anchor) -->
+            <a href="./login.html"
+                class="block w-full text-center bg-[#3D4142] transition duration-150 ease-in-out hover:bg-[#616161] rounded-full py-2 font-medium mb-4">
+                Daftar
+            </a>
+
+            <!-- Or divider -->
+            <div class="flex items-center mb-4">
+                <hr class="flex-grow border-gray-600">
+                <span class="px-2 text-gray-400 text-sm">Atau</span>
+                <hr class="flex-grow border-gray-600">
+            </div>
+
+            <!-- Google login button (anchor) -->
+            <a href="#"
+                class="flex items-center justify-center space-x-2 w-full border border-[#757575] transition duration-150 ease-in-out hover:bg-[#616161] rounded-full py-2 font-medium">
+                <img src="https://www.svgrepo.com/show/355037/google.svg" class="w-5 h-5">
+                <span>Daftar dengan Google</span>
+            </a>
+        </div>
+    </div>
 </body>
 </html>

@@ -3,10 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="src/output.css" rel="stylesheet">
+    <link href="../output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const btn = document.querySelector('#profileBtn');
+            const menu = document.querySelector('#profileMenu');
+
+            btn.addEventListener('click', () => {
+                menu.classList.toggle('hidden');
+            });
+
+            document.addEventListener('click', (e) => {
+                if (!btn.contains(e.target) && !menu.contains(e.target)) {
+                menu.classList.add('hidden');
+                }
+            });
+        });
+    </script>
     <title>Chill</title>
 </head>
-<body>
-    
+<body class="bg-[#202026]">
+    <div class="w-full">
+        <div class="max-w-7xl mx-auto flex items-center justify-between px-8 py-4">
+            <!-- Logo + Nav -->
+            <div class="flex items-center gap-10">
+            <a href="#" class="flex items-center gap-2 text-white font-extrabold text-2xl">
+                <img src="../statics/logo.png" class="h-7">
+            </a>
+
+            <nav class="flex items-center gap-8 text-white">
+                <a href="#" class="font-semibold text-white/80 hover:text-white">Series</a>
+                <a href="#" class="font-semibold text-white/80 hover:text-white">Film</a>
+                <a href="#" class="font-semibold text-white/80 hover:text-white">Daftar Saya</a>
+            </nav>
+            </div>
+
+            <!-- Profile + Dropdown -->
+            <div class="relative">
+            <button id="profileBtn" class="flex items-center gap-2 focus:outline-none">
+                <img src="https://i.pravatar.cc/16" alt="Profile" class="w-9 h-9 rounded-full">
+                <svg class="w-4 h-4 text-white" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 0 1 1.06.02L10 10.94l3.71-3.71a.75.75 0 1 1 1.06 1.06l-4.24 4.24a.75.75 0 0 1-1.06 0L5.21 8.29a.75.75 0 0 1 .02-1.08z" clip-rule="evenodd"/>
+                </svg>
+            </button>
+
+            <!-- Dropdown -->
+            <div id="profileMenu"
+                class="hidden absolute right-0 mt-2 w-44 rounded-md bg-[#202026] text-gray-800 shadow-lg ring-1 ring-black/10 overflow-hidden">
+                <a href="#" class="block px-4 py-2 text-sm text-white hover:bg-[#616161]">Profil Saya</a>
+                <a href="#" class="block px-4 py-2 text-sm text-white hover:bg-[#616161]">Ubah Premium</a>
+                <a href="./login.html" class="block px-4 py-2 text-sm text-white hover:bg-[#616161]">Keluar</a>
+            </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
