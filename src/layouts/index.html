@@ -28,8 +28,9 @@
 <body class="bg-[#202026]">
 
     <!-- Navbar -->
+    <!-- TODO: MAKE THE NAVBAR FULL WIDTH AND PROPER FOR SMALLER SCREEN-->
     <div class="w-full">
-        <div class="max-w-7xl mx-auto flex items-center justify-between px-8 py-4">
+        <div class="flex items-center justify-between px-12 py-4">
             <!-- Logo + Nav -->
             <div class="flex items-center gap-10">
                 <a href="#" class="flex items-center gap-2 text-white font-extrabold text-2xl">
@@ -157,7 +158,7 @@
             <!-- Scroll container -->
             <div class="flex gap-6 overflow-x-auto scroll-smooth snap-x snap-mandatory pr-2">
                 <!-- Card -->
-                <a class="snap-start relative shrink-0 w-[306px] h-[166px] rounded-[6px] overflow-hidden">
+                <a class="relative shrink-0 w-[306px] h-[166px] rounded-[6px] overflow-hidden">
                     <img class="w-full h-full object-cover"
                         src="../statics/dontlookup.png" alt="Don't look up">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
@@ -167,7 +168,7 @@
                     </div>
                 </a>
 
-                <a class="snap-start relative shrink-0 w-[306px] h-[166px] rounded-[6px] overflow-hidden">
+                <a class="relative shrink-0 w-[306px] h-[166px] rounded-[6px] overflow-hidden">
                     <img class="w-full h-full object-cover"
                         src="../statics/thebatman.png" alt="The batman">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
@@ -177,7 +178,7 @@
                     </div>
                 </a>
 
-                <a class="snap-start relative shrink-0 w-[306px] h-[166px] rounded-[6px] overflow-hidden">
+                <a class="relative shrink-0 w-[306px] h-[166px] rounded-[6px] overflow-hidden">
                     <img class="w-full h-full object-cover"
                         src="../statics/blulok.png" alt="Blue lock">
                     <span class="absolute top-2 left-2 bg-[#0F1E93] text-white text-xs font-semibold px-2 py-1 rounded-full">
@@ -190,7 +191,7 @@
                     </div>
                 </a>
 
-                <a class="snap-start relative shrink-0 w-[306px] h-[166px] rounded-[6px] overflow-hidden">
+                <a class="relative shrink-0 w-[306px] h-[166px] rounded-[6px] overflow-hidden">
                     <img class="w-full h-full object-cover"
                         src="../statics/otto.png" alt="A man called otto">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
@@ -200,7 +201,7 @@
                     </div>
                 </a>
 
-                <a class="snap-start relative shrink-0 w-[306px] h-[166px] rounded-[6px] overflow-hidden">
+                <a class="relative shrink-0 w-[306px] h-[166px] rounded-[6px] overflow-hidden">
                     <img class="w-full h-full object-cover"
                         src="../statics/myhero.png" alt="">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
@@ -210,7 +211,7 @@
                     </div>
                 </a>
 
-                <a class="snap-start relative shrink-0 w-[306px] h-[166px] rounded-[6px] overflow-hidden">
+                <a class="relative shrink-0 w-[306px] h-[166px] rounded-[6px] overflow-hidden">
                     <img class="w-full h-full object-cover"
                         src="../statics/megan.png" alt="">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
@@ -220,7 +221,7 @@
                     </div>
                 </a>
 
-                <a class="snap-start relative shrink-0 w-[306px] h-[166px] rounded-[6px] overflow-hidden">
+                <a class="relative shrink-0 w-[306px] h-[166px] rounded-[6px] overflow-hidden">
                     <img class="w-full h-full object-cover"
                         src="../statics/tedlasso.png" alt="">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
@@ -230,7 +231,7 @@
                     </div>
                 </a>
 
-                <a class="snap-start relative shrink-0 w-[306px] h-[166px] rounded-[6px] overflow-hidden">
+                <a class="relative shrink-0 w-[306px] h-[166px] rounded-[6px] overflow-hidden">
                     <img class="w-full h-full object-cover"
                         src="../statics/suzume.png" alt="">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
@@ -243,7 +244,6 @@
         </div>
     </div>
 
-    <!-- TODO: FILL THE POSTERS AND FIX THE OVERLAYS -->
     <!-- Top Rating Film dan Series Hari Ini -->
     <div class="w-full px-12 py-8">
         <h2 class="text-white text-2xl font-bold mb-4">Top Rating Film dan Series Hari Ini</h2>
@@ -265,43 +265,60 @@
                 </svg>
             </button>
 
+            <!-- Scroll container -->
             <div class="flex gap-6 overflow-x-auto scroll-smooth snap-x snap-mandatory pr-2">
+                <!-- Card -->
 
-                <div class="snap-start relative shrink-0 w-[234px] h-[365px] rounded-[8px] overflow-hidden">
-                    <img src="" alt=""
-                        class="w-full h-full object-cover">
-                    <span class="absolute top-2 right-2 bg-red-600 text-white text-xs font-semibold px-2 py-1 rounded">
-                    Top 10
-                    </span>
-                </div>
-
-                <div class="snap-start relative shrink-0 w-[234px] h-[365px] rounded-[8px] overflow-hidden">
-                    <img src="" alt=""
-                        class="w-full h-full object-cover">
-                    <span class="absolute top-2 left-2 bg-indigo-600 text-white text-xs font-semibold px-2 py-1 rounded">
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/severance.jpg)">
+                    <span class="absolute top-2 left-2 bg-[#0F1E93] text-white text-[14px] font-semibold px-2 py-1 rounded-full">
                     Episode Baru
                     </span>
                 </div>
 
-                <div class="snap-start relative shrink-0 w-[234px] h-[365px] rounded-[8px] overflow-hidden">
-                    <img src="" alt=""
-                        class="w-full h-full object-cover">
-                    <span class="absolute top-2 right-2 bg-red-600 text-white text-xs font-semibold px-2 py-1 rounded">
-                    Top 10
-                    </span>
-                </div>
-
-                <div class="snap-start relative shrink-0 w-[234px] h-[365px] rounded-[8px] overflow-hidden">
-                    <img src="" alt=""
-                        class="w-full h-full object-cover">
-                    <span class="absolute top-2 left-2 bg-indigo-600 text-white text-xs font-semibold px-2 py-1 rounded">
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/suzumep.png)">
+                    <span class="absolute top-2 left-2 bg-[#0F1E93] text-white text-[14px] font-semibold px-2 py-1 rounded-full">
                     Episode Baru
                     </span>
                 </div>
 
-                <div class="snap-start relative shrink-0 w-[234px] h-[365px] rounded-[8px] overflow-hidden">
-                    <img src="" alt=""
-                        class="w-full h-full object-cover">
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/jurassicworld.png)">
+                </div>
+
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/sonic.png)">
+                </div>
+
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/allofusaredead.png)">
+                    <span class="absolute top-2 left-2 bg-[#0F1E93] text-white text-xs font-semibold px-2 py-1 rounded-full">
+                    Episode Baru
+                    </span>
+                </div>
+
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/bighero6.png)">
+                </div>
+
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/tedlassop.png)">
+                    <span class="absolute top-2 left-2 bg-[#0F1E93] text-white text-xs font-semibold px-2 py-1 rounded-full">
+                    Episode Baru
+                    </span>
+                </div>
+
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/blulokp.png)">
+                </div>
+
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/thelastofus.jpg)">
+                </div>
+
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/batman.png)">
                 </div>
             </div>
         </div>
@@ -330,42 +347,106 @@
 
             <div class="flex gap-6 overflow-x-auto scroll-smooth snap-x snap-mandatory pr-2">
 
-                <div class="snap-start relative shrink-0 w-[234px] h-[365px] rounded-[8px] overflow-hidden">
-                    <img src="" alt=""
-                        class="w-full h-full object-cover">
-                    <span class="absolute top-2 right-2 bg-red-600 text-white text-xs font-semibold px-2 py-1 rounded">
-                    Top 10
-                    </span>
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/tomorrowar.png)">
+                    <div class="absolute top-0 right-2 bg-[#B71F1D] rounded-bl-[4px] rounded-tr-[4px] text-white px-2 py-1 text-[14px] font-semibold shadow">
+                        <div class="flex flex-col items-center">
+                            <span>Top</span>
+                            <span>10</span>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="snap-start relative shrink-0 w-[234px] h-[365px] rounded-[8px] overflow-hidden">
-                    <img src="" alt=""
-                        class="w-full h-full object-cover">
-                    <span class="absolute top-2 left-2 bg-indigo-600 text-white text-xs font-semibold px-2 py-1 rounded">
-                    Episode Baru
-                    </span>
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/antman.png)">
+                    <div class="absolute top-0 right-2 bg-[#B71F1D] rounded-bl-[4px] rounded-tr-[4px] text-white px-2 py-1 text-[14px] font-semibold shadow">
+                        <div class="flex flex-col items-center">
+                            <span>Top</span>
+                            <span>10</span>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="snap-start relative shrink-0 w-[234px] h-[365px] rounded-[8px] overflow-hidden">
-                    <img src="" alt=""
-                        class="w-full h-full object-cover">
-                    <span class="absolute top-2 right-2 bg-red-600 text-white text-xs font-semibold px-2 py-1 rounded">
-                    Top 10
-                    </span>
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/guardians.png)">
+                    <div class="absolute top-0 right-2 bg-[#B71F1D] rounded-bl-[4px] rounded-tr-[4px] text-white px-2 py-1 text-[14px] font-semibold shadow">
+                        <div class="flex flex-col items-center">
+                            <span>Top</span>
+                            <span>10</span>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="snap-start relative shrink-0 w-[234px] h-[365px] rounded-[8px] overflow-hidden">
-                    <img src="" alt=""
-                        class="w-full h-full object-cover">
-                    <span class="absolute top-2 left-2 bg-indigo-600 text-white text-xs font-semibold px-2 py-1 rounded">
-                    Episode Baru
-                    </span>
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/ottop.png)">
+                    <div class="absolute top-0 right-2 bg-[#B71F1D] rounded-bl-[4px] rounded-tr-[4px] text-white px-2 py-1 text-[14px] font-semibold shadow">
+                        <div class="flex flex-col items-center">
+                            <span>Top</span>
+                            <span>10</span>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="snap-start relative shrink-0 w-[234px] h-[365px] rounded-[8px] overflow-hidden">
-                    <img src="" alt=""
-                        class="w-full h-full object-cover">
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/littlemermaid.png)">
+                    <div class="absolute top-0 right-2 bg-[#B71F1D] rounded-bl-[4px] rounded-tr-[4px] text-white px-2 py-1 text-[14px] font-semibold shadow">
+                        <div class="flex flex-col items-center">
+                            <span>Top</span>
+                            <span>10</span>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/anatomy-of-a-fall.jpg)">
+                    <div class="absolute top-0 right-2 bg-[#B71F1D] rounded-bl-[4px] rounded-tr-[4px] text-white px-2 py-1 text-[14px] font-semibold shadow">
+                        <div class="flex flex-col items-center">
+                            <span>Top</span>
+                            <span>10</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/meganp.png)">
+                    <div class="absolute top-0 right-2 bg-[#B71F1D] rounded-bl-[4px] rounded-tr-[4px] text-white px-2 py-1 text-[14px] font-semibold shadow">
+                        <div class="flex flex-col items-center">
+                            <span>Top</span>
+                            <span>10</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/shazam.png)">
+                    <div class="absolute top-0 right-2 bg-[#B71F1D] rounded-bl-[4px] rounded-tr-[4px] text-white px-2 py-1 text-[14px] font-semibold shadow">
+                        <div class="flex flex-col items-center">
+                            <span>Top</span>
+                            <span>10</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/spiderman.png)">
+                    <div class="absolute top-0 right-2 bg-[#B71F1D] rounded-bl-[4px] rounded-tr-[4px] text-white px-2 py-1 text-[14px] font-semibold shadow">
+                        <div class="flex flex-col items-center">
+                            <span>Top</span>
+                            <span>10</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/avatar.png)">
+                    <div class="absolute top-0 right-2 bg-[#B71F1D] rounded-bl-[4px] rounded-tr-[4px] text-white px-2 py-1 text-[14px] font-semibold shadow">
+                        <div class="flex flex-col items-center">
+                            <span>Top</span>
+                            <span>10</span>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -393,41 +474,62 @@
 
             <div class="flex gap-6 overflow-x-auto scroll-smooth snap-x snap-mandatory pr-2">
 
-                <div class="snap-start relative shrink-0 w-[234px] h-[365px] rounded-[8px] overflow-hidden">
-                    <img src="" alt=""
-                        class="w-full h-full object-cover">
-                    <span class="absolute top-2 right-2 bg-red-600 text-white text-xs font-semibold px-2 py-1 rounded">
-                    Top 10
-                    </span>
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/littlemermaid.png)">
+                    <div class="absolute top-0 right-2 bg-[#B71F1D] rounded-bl-[4px] rounded-tr-[4px] text-white px-2 py-1 text-[14px] font-semibold shadow">
+                        <div class="flex flex-col items-center">
+                            <span>Top</span>
+                            <span>10</span>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="snap-start relative shrink-0 w-[234px] h-[365px] rounded-[8px] overflow-hidden">
-                    <img src="" alt=""
-                        class="w-full h-full object-cover">
-                    <span class="absolute top-2 left-2 bg-indigo-600 text-white text-xs font-semibold px-2 py-1 rounded">
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/dutyafterschool.png)">
+                    <span class="absolute top-2 left-2 bg-[#0F1E93] text-white text-[14px] font-semibold px-2 py-1 rounded-full">
                     Episode Baru
                     </span>
                 </div>
 
-                <div class="snap-start relative shrink-0 w-[234px] h-[365px] rounded-[8px] overflow-hidden">
-                    <img src="" alt=""
-                        class="w-full h-full object-cover">
-                    <span class="absolute top-2 right-2 bg-red-600 text-white text-xs font-semibold px-2 py-1 rounded">
-                    Top 10
-                    </span>
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/bighero6.png)">
                 </div>
 
-                <div class="snap-start relative shrink-0 w-[234px] h-[365px] rounded-[8px] overflow-hidden">
-                    <img src="" alt=""
-                        class="w-full h-full object-cover">
-                    <span class="absolute top-2 left-2 bg-indigo-600 text-white text-xs font-semibold px-2 py-1 rounded">
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/allofusaredead.png)">
+                    <span class="absolute top-2 left-2 bg-[#0F1E93] text-white text-[14px] font-semibold px-2 py-1 rounded-full">
                     Episode Baru
                     </span>
                 </div>
 
-                <div class="snap-start relative shrink-0 w-[234px] h-[365px] rounded-[8px] overflow-hidden">
-                    <img src="" alt=""
-                        class="w-full h-full object-cover">
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/missing.png)">
+                </div>
+
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/severance.jpg)">
+                    <span class="absolute top-2 left-2 bg-[#0F1E93] text-white text-[14px] font-semibold px-2 py-1 rounded-full">
+                    Episode Baru
+                    </span>
+                </div>
+
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/silo.jpg)">
+                </div>
+
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/batman.png)">
+                </div>
+
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/tedlassop.png)">
+                    <span class="absolute top-2 left-2 bg-[#0F1E93] text-white text-[14px] font-semibold px-2 py-1 rounded-full">
+                    Episode Baru
+                    </span>
+                </div>
+
+                <div class="relative shrink-0 w-[234px] h-[365px] rounded-[8px] bg-cover bg-center overflow-hidden"
+                    style="background-image:url(../statics/thelastofus.jpg)">
                 </div>
             </div>
         </div>
@@ -436,13 +538,13 @@
     <!-- FOOTER -->
     <!-- TODO: FIX THE FOOTER -->
     <footer class="text-white bg-[#1f1f1f]">
-        <div class="max-w-7xl mx-auto px-6 py-10">
+        <div class="px-12 py-10">
             <!-- Top row: brand -->
             <div class="mb-8">
-            <div class="flex items-center gap-2">
-                <!-- Logo placeholder -->
-                <img src="../statics/logo.png" class="h-7">
-            </div>
+                <div class="flex items-center gap-2">
+                    <!-- Logo placeholder -->
+                    <img src="../statics/logo.png" class="h-7">
+                </div>
             <p class="text-white/70 mt-2 text-sm">©2023 Chill All Rights Reserved.</p>
             </div>
 
@@ -484,56 +586,49 @@
             </div>
             </div>
 
-            <!-- Mobile layout (collapsible) -->
+            <!-- Mobile layout -->
             <div class="md:hidden space-y-4">
             <!-- Genre -->
-            <details class="group rounded-lg">
-                <summary class="flex items-center justify-between py-3 text-base font-medium cursor-pointer">
-                <span>Genre</span>
-                <!-- Chevron -->
-                <svg class="w-5 h-5 text-white/70 transition-transform group-open:rotate-90"
-                    viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                    <path fill-rule="evenodd"
-                        d="M6.3 7.3a1 1 0 0 1 1.4 0L12 11.6l4.3-4.3a1 1 0 1 1 1.4 1.4l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 0 1 0-1.4z"
-                        clip-rule="evenodd"/>
-                </svg>
-                </summary>
-                <div class="pl-1 pb-2 grid grid-cols-2 gap-x-6 gap-y-2 text-white/80">
-                    <a href="#" class="hover:underline">Aksi</a>
-                    <a href="#" class="hover:underline">Drama</a>
-                    <a href="#" class="hover:underline">Komedi</a>
-                    <a href="#" class="hover:underline">Anak-anak</a>
-                    <a href="#" class="hover:underline">Fantasi Ilmiah & Fantasi</a>
-                    <a href="#" class="hover:underline">Petualangan</a>
-                    <a href="#" class="hover:underline">Anime</a>
-                    <a href="#" class="hover:underline">Kejahatan</a>
-                    <a href="#" class="hover:underline">Perang</a>
-                    <a href="#" class="hover:underline">Britania</a>
-                    <a href="#" class="hover:underline">KDrama</a>
-                    <a href="#" class="hover:underline">Romantis</a>
-                    <a href="#" class="hover:underline">Sains & Alam</a>
-                    <a href="#" class="hover:underline">Thriller</a>
-                </div>
-            </details>
+                <details class="group rounded-lg">
+                    <summary class="flex items-center justify-between py-3 text-base font-medium cursor-pointer">
+                        <span>Genre</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 text-white">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </summary>
+                    <div class="pl-1 pb-2 grid grid-cols-2 gap-x-6 gap-y-2 text-white/80">
+                        <a href="#" class="hover:underline">Aksi</a>
+                        <a href="#" class="hover:underline">Drama</a>
+                        <a href="#" class="hover:underline">Komedi</a>
+                        <a href="#" class="hover:underline">Anak-anak</a>
+                        <a href="#" class="hover:underline">Fantasi Ilmiah & Fantasi</a>
+                        <a href="#" class="hover:underline">Petualangan</a>
+                        <a href="#" class="hover:underline">Anime</a>
+                        <a href="#" class="hover:underline">Kejahatan</a>
+                        <a href="#" class="hover:underline">Perang</a>
+                        <a href="#" class="hover:underline">Britania</a>
+                        <a href="#" class="hover:underline">KDrama</a>
+                        <a href="#" class="hover:underline">Romantis</a>
+                        <a href="#" class="hover:underline">Sains & Alam</a>
+                        <a href="#" class="hover:underline">Thriller</a>
+                    </div>
+                </details>
 
-            <!-- Bantuan -->
-            <details class="group rounded-lg">
-                <summary class="flex items-center justify-between py-3 text-base font-medium cursor-pointer">
-                <span>Bantuan</span>
-                <svg class="w-5 h-5 text-white/70 transition-transform group-open:rotate-90"
-                    viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                    <path fill-rule="evenodd"
-                        d="M6.3 7.3a1 1 0 0 1 1.4 0L12 11.6l4.3-4.3a1 1 0 1 1 1.4 1.4l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 0 1 0-1.4z"
-                        clip-rule="evenodd"/>
-                </svg>
-                </summary>
-                <ul class="pl-1 pb-2 space-y-2 text-white/80">
-                <li><a href="#" class="hover:underline">FAQ</a></li>
-                <li><a href="#" class="hover:underline">Kontak Kami</a></li>
-                <li><a href="#" class="hover:underline">Privasi</a></li>
-                <li><a href="#" class="hover:underline">Syarat & Ketentuan</a></li>
-                </ul>
-            </details>
+                <!-- Bantuan -->
+                <details class="group rounded-lg">
+                    <summary class="flex items-center justify-between py-3 text-base font-medium cursor-pointer">
+                    <span>Bantuan</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 text-white">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </summary>
+                    <ul class="pl-1 pb-2 space-y-2 text-white/80">
+                        <li><a href="#" class="hover:underline">FAQ</a></li>
+                        <li><a href="#" class="hover:underline">Kontak Kami</a></li>
+                        <li><a href="#" class="hover:underline">Privasi</a></li>
+                        <li><a href="#" class="hover:underline">Syarat & Ketentuan</a></li>
+                    </ul>
+                </details>
             </div>
         </div>
     </footer>
