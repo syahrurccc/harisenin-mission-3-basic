@@ -351,6 +351,12 @@
   .h-10 {
     height: calc(var(--spacing) * 10);
   }
+  .h-\[21px\] {
+    height: 21px;
+  }
+  .h-\[36px\] {
+    height: 36px;
+  }
   .h-\[166px\] {
     height: 166px;
   }
@@ -449,11 +455,17 @@
   .items-end {
     align-items: flex-end;
   }
+  .items-start {
+    align-items: flex-start;
+  }
   .justify-between {
     justify-content: space-between;
   }
   .justify-center {
     justify-content: center;
+  }
+  .justify-end {
+    justify-content: flex-end;
   }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
@@ -502,6 +514,9 @@
   }
   .gap-y-2 {
     row-gap: calc(var(--spacing) * 2);
+  }
+  .self-center {
+    align-self: center;
   }
   .truncate {
     overflow: hidden;
@@ -602,6 +617,9 @@
   }
   .bg-\[\#3D4142\] {
     background-color: #3D4142;
+  }
+  .bg-\[\#181A1C\] {
+    background-color: #181A1C;
   }
   .bg-\[\#181A1C\]\/80 {
     background-color: color-mix(in oklab, #181A1C 80%, transparent);

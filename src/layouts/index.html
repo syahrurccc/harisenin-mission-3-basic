@@ -537,62 +537,63 @@
 
     <!-- FOOTER -->
     <!-- TODO: FIX THE FOOTER -->
-    <footer class="text-white bg-[#1f1f1f]">
+    <footer class="text-white bg-[#181A1C]">
         <div class="px-12 py-10">
-            <!-- Top row: brand -->
-            <div class="mb-8">
-                <div class="flex items-center gap-2">
-                    <!-- Logo placeholder -->
-                    <img src="../statics/logo.png" class="h-7">
-                </div>
-            <p class="text-white/70 mt-2 text-sm">©2023 Chill All Rights Reserved.</p>
-            </div>
-
             <!-- Desktop / tablet layout -->
-            <div class="hidden md:grid grid-cols-3 gap-12">
-            <!-- Spacer under brand (keeps the 3-col layout balanced) -->
-            <div></div>
-
-            <!-- Genre -->
-            <div>
-                <h3 class="font-semibold mb-3">Genre</h3>
-                <div class="grid grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-2 text-white/80">
-                    <a href="#" class="hover:underline">Aksi</a>
-                    <a href="#" class="hover:underline">Drama</a>
-                    <a href="#" class="hover:underline">Komedi</a>
-                    <a href="#" class="hover:underline">Anak-anak</a>
-                    <a href="#" class="hover:underline">Fantasi Ilmiah & Fantasi</a>
-                    <a href="#" class="hover:underline">Petualangan</a>
-                    <a href="#" class="hover:underline">Anime</a>
-                    <a href="#" class="hover:underline">Kejahatan</a>
-                    <a href="#" class="hover:underline">Perang</a>
-                    <a href="#" class="hover:underline">Britania</a>
-                    <a href="#" class="hover:underline">KDrama</a>
-                    <a href="#" class="hover:underline">Romantis</a>
-                    <a href="#" class="hover:underline">Sains & Alam</a>
-                    <a href="#" class="hover:underline">Thriller</a>
+            <div class="hidden md:grid grid-cols-3 gap-12 justify-center items-center">
+                <!-- Brand -->
+                <div class="flex flex-col items-start self-center">
+                    <img src="../statics/logo.png" class="h-[36px] mb-2">
+                    <p class="text-white/70 text-sm">©2023 Chill All Rights Reserved.</p>
                 </div>
-            </div>
 
-            <!-- Bantuan -->
-            <div>
-                <h3 class="font-semibold mb-3">Bantuan</h3>
-                <ul class="space-y-2 text-white/80">
-                    <li><a href="#" class="hover:underline">FAQ</a></li>
-                    <li><a href="#" class="hover:underline">Kontak Kami</a></li>
-                    <li><a href="#" class="hover:underline">Privasi</a></li>
-                    <li><a href="#" class="hover:underline">Syarat & Ketentuan</a></li>
-                </ul>
-            </div>
+                <!-- Genre -->
+                <div>
+                    <h3 class="font-semibold mb-3">Genre</h3>
+                    <div class="grid grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-2 text-white/80">
+                        <a href="#" class="hover:underline">Aksi</a>
+                        <a href="#" class="hover:underline">Drama</a>
+                        <a href="#" class="hover:underline">Komedi</a>
+                        <a href="#" class="hover:underline">Anak-anak</a>
+                        <a href="#" class="hover:underline">Fantasi Ilmiah & Fantasi</a>
+                        <a href="#" class="hover:underline">Petualangan</a>
+                        <a href="#" class="hover:underline">Anime</a>
+                        <a href="#" class="hover:underline">Kejahatan</a>
+                        <a href="#" class="hover:underline">Perang</a>
+                        <a href="#" class="hover:underline">Britania</a>
+                        <a href="#" class="hover:underline">KDrama</a>
+                        <a href="#" class="hover:underline">Romantis</a>
+                        <a href="#" class="hover:underline">Sains & Alam</a>
+                        <a href="#" class="hover:underline">Thriller</a>
+                    </div>
+                </div>
+
+                <!-- Bantuan -->
+                <div>
+                    <h3 class="font-semibold mb-3">Bantuan</h3>
+                    <ul class="space-y-2 text-white">
+                        <li><a href="#" class="hover:underline">FAQ</a></li>
+                        <li><a href="#" class="hover:underline">Kontak Kami</a></li>
+                        <li><a href="#" class="hover:underline">Privasi</a></li>
+                        <li><a href="#" class="hover:underline">Syarat & Ketentuan</a></li>
+                    </ul>
+                </div>
             </div>
 
             <!-- Mobile layout -->
-            <div class="md:hidden space-y-4">
-            <!-- Genre -->
-                <details class="group rounded-lg">
+            <div class="md:hidden">
+                <div class="flex flex-col items-start mb-6">
+                    <img src="../statics/logo.png" class="h-[21px] mb-2">
+                    <p class="text-white text-sm">©2023 Chill All Rights Reserved.</p>
+                </div>
+
+                <div class="space-y-4">
+                    <!-- Genre -->
+                    <details class="group rounded-lg">
                     <summary class="flex items-center justify-between py-3 text-base font-medium cursor-pointer">
                         <span>Genre</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20"
+                        stroke-width="1.5" stroke="currentColor" class="w-4 h-4 text-white">
                             <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                         </svg>
                     </summary>
@@ -612,26 +613,29 @@
                         <a href="#" class="hover:underline">Sains & Alam</a>
                         <a href="#" class="hover:underline">Thriller</a>
                     </div>
-                </details>
+                    </details>
 
-                <!-- Bantuan -->
-                <details class="group rounded-lg">
-                    <summary class="flex items-center justify-between py-3 text-base font-medium cursor-pointer">
-                    <span>Bantuan</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 text-white">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-                        </svg>
-                    </summary>
-                    <ul class="pl-1 pb-2 space-y-2 text-white/80">
-                        <li><a href="#" class="hover:underline">FAQ</a></li>
-                        <li><a href="#" class="hover:underline">Kontak Kami</a></li>
-                        <li><a href="#" class="hover:underline">Privasi</a></li>
-                        <li><a href="#" class="hover:underline">Syarat & Ketentuan</a></li>
-                    </ul>
-                </details>
+                    <!-- Bantuan -->
+                    <details class="group rounded-lg">
+                        <summary class="flex items-center justify-between py-3 text-base font-medium cursor-pointer">
+                            <span>Bantuan</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" 
+                            stroke-width="1.5" stroke="currentColor" class="w-4 h-4 text-white">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </summary>
+                        <ul class="pl-1 pb-2 space-y-2 text-white/80">
+                            <li><a href="#" class="hover:underline">FAQ</a></li>
+                            <li><a href="#" class="hover:underline">Kontak Kami</a></li>
+                            <li><a href="#" class="hover:underline">Privasi</a></li>
+                            <li><a href="#" class="hover:underline">Syarat & Ketentuan</a></li>
+                        </ul>
+                    </details>
+                </div>
             </div>
         </div>
     </footer>
 
 </body>
 </html>
+
