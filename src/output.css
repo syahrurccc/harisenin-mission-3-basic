@@ -27,6 +27,8 @@
     --text-xl--line-height: calc(1.75 / 1.25);
     --text-2xl: 1.5rem;
     --text-2xl--line-height: calc(2 / 1.5);
+    --text-3xl: 1.875rem;
+    --text-3xl--line-height: calc(2.25 / 1.875);
     --text-4xl: 2.25rem;
     --text-4xl--line-height: calc(2.5 / 2.25);
     --text-5xl: 3rem;
@@ -289,6 +291,9 @@
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
   }
+  .mb-1 {
+    margin-bottom: calc(var(--spacing) * 1);
+  }
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
   }
@@ -353,6 +358,9 @@
   .h-10 {
     height: calc(var(--spacing) * 10);
   }
+  .h-663 {
+    height: calc(var(--spacing) * 663);
+  }
   .h-\[30px\] {
     height: 30px;
   }
@@ -367,6 +375,15 @@
   }
   .h-\[360px\] {
     height: 360px;
+  }
+  .h-\[663\] {
+    height: 663;
+  }
+  .h-\[663px\] {
+    height: 663px;
+  }
+  .h-\[p\] {
+    height: p;
   }
   .h-full {
     height: 100%;
@@ -398,11 +415,17 @@
   .w-44 {
     width: calc(var(--spacing) * 44);
   }
+  .w-\[5\] {
+    width: 5;
+  }
   .w-\[160px\] {
     width: 160px;
   }
   .w-\[306px\] {
     width: 306px;
+  }
+  .w-\[530px\] {
+    width: 530px;
   }
   .w-full {
     width: 100%;
@@ -737,6 +760,10 @@
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
+  }
+  .text-3xl {
+    font-size: var(--text-3xl);
+    line-height: var(--tw-leading, var(--text-3xl--line-height));
   }
   .text-4xl {
     font-size: var(--text-4xl);

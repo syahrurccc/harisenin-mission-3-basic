@@ -11,22 +11,19 @@
 </head>
 <body>
     <div class="h-screen bg-cover bg-center flex items-center justify-center" style="background-image: url('../statics/login.jpg');">
-        <div class="bg-[#181A1C]/80 text-white rounded-2xl shadow-lg w-full max-w-sm p-8">
-            <!-- Logo -->
+        <div class="bg-[#181A1C]/84 text-white rounded-2xl shadow-lg w-full max-w-sm p-8">
+
             <div class="flex flex-col items-center mb-6">
                 <img src="../statics/logo.png">
             </div>
 
-            <!-- Title -->
-            <h2 class="text-xl font-semibold text-center">Masuk</h2>
-            <p class="text-sm text-center mb-6">Selamat datang kembali!</p>
+            <h2 class="text-3xl font-semibold text-center mb-1">Masuk</h2>
+            <p class="text-base text-center mb-6">Selamat datang kembali!</p>
 
-            <!-- Username -->
             <label for="username" class="block text-sm font-semibold">Username</label>
             <input type="text" id="username" placeholder="Masukkan username"
                     class="mt-1 mb-4 w-full px-4 py-2 rounded-full border border-gray-600 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-400">
 
-            <!-- Password -->
             <label for="password" class="block text-sm font-semibold">Kata Sandi</label>
             <div class="relative mt-1 mb-2">
                 <input type="password" id="password" placeholder="Masukkan kata sandi"
@@ -38,26 +35,20 @@
                 </span>
             </div>
 
-            <!-- Links under password -->
             <div class="flex justify-between text-sm mb-6">
                 <span>Belum punya akun? <a href="./register.html" class="text-white-400 hover:underline font-semibold">Daftar</a></span>
                 <a href="#" class="text-white font-semibold hover:underline">Lupa kata sandi?</a>
             </div>
 
-            <!-- Login button -->
             <a href="./index.html"
-                class="block w-full text-center bg-[#3D4142] transition duration-150 ease-in-out hover:bg-[#616161] rounded-full py-2 font-medium mb-4">
+                class="block w-full text-center bg-[#3D4142] transition duration-150 ease-in-out hover:bg-[#616161] rounded-full py-2 font-medium mb-2">
                 Masuk
             </a>
 
-            <!-- Or divider -->
-            <div class="flex items-center mb-4">
-                <hr class="flex-grow border-gray-600">
-                <span class="px-2 text-gray-400 text-sm">Atau</span>
-                <hr class="flex-grow border-gray-600">
+            <div class="flex items-center justify-center mb-2">
+                <span class="text-gray-400 text-sm">Atau</span>
             </div>
 
-            <!-- Google login button (anchor) -->
             <a href="#"
                 class="flex items-center justify-center space-x-2 w-full border border-[#757575] transition duration-150 ease-in-out hover:bg-[#616161] rounded-full py-2 font-medium">
                 <img src="https://www.svgrepo.com/show/355037/google.svg" class="w-5 h-5">
